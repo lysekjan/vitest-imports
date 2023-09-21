@@ -1,7 +1,7 @@
-import { thunkFactory } from "./thunkFaktory";
+import { thunkFactory } from "./thunkFactory";
 
 export function helperFunction(): void {
-  console.log("helper");
+  console.log("some helper function");
 }
 
 thunkFactory();
